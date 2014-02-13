@@ -1,0 +1,9 @@
+{
+  "name": "pixijs",
+  "description": "Super fast HTML 5 2D rendering engine that uses webGL with canvas fallback",
+  "homepage": "https://github.com/foxdog-studios/meteor-pixijs",
+  "author": "Lloyd Henning <eldog@foxdogstudios.com> (http://foxdogstudios.com)",
+  "version": "0.0.1"
+  "git": "https://github.com/foxdog-studios/meteor-pixijs",
+  "packages": {}
+}
