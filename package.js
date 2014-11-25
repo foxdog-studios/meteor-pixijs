@@ -1,12 +1,19 @@
+'use strict';
+
 Package.describe({
-  summary: 'Super fast HTML 5 2D rendering engine that uses webGL with canvas fallback'
+  summary: '2D webGL renderer with canvas fallback',
+  name: 'fds:pixijs',
+  version: '1.5.1_1',
+  git: 'https://github.com/foxdog-studios/meteor-pixijs.git'
 });
 
-Package.on_use(function (api, where) {
-  if(api.export) {
-    api.export('PIXI');
-  }
-  api.add_files('lib/pixijs/bin/pixi.js', ['client']);
-  api.add_files('export-pixi.js', ['client']);
+Package.onUse(function (api) {
+  api.versionsFrom('1.0');
+  api.export('PIXI', 'client');
+  api.addFiles(['lib/pixijs/bin/pixi.js', 'export-pixi.js'], 'client');
+});
+
+Package.onTest(function (api) {
+  api.use('fds:pixijs');
 });
 
