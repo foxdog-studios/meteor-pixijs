@@ -3,7 +3,7 @@
 Package.describe({
   summary: '2D webGL renderer with canvas fallback',
   name: 'fds:pixijs',
-  version: '2.2.8_1',
+  version: '3.0.6_1',
   documentation: 'README.md',
   git: 'https://github.com/foxdog-studios/meteor-pixijs.git'
 });
@@ -17,4 +17,3 @@ Package.onUse(function (api) {
 Package.onTest(function (api) {
   api.use('fds:pixijs')
 });
-
