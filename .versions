@@ -1,4 +1,4 @@
-fds:pixijs@3.0.6_1
-local-test:fds:pixijs@3.0.6_1
-meteor@1.1.6
-underscore@1.0.3
+fds:pixijs@3.0.9_2
+local-test:fds:pixijs@3.0.9_2
+meteor@1.1.12
+underscore@1.0.6
