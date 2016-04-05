@@ -1,6 +1,6 @@
-# As of Meteor 1.3 use don't use this package
+# As of Meteor 1.3 don't use this package
 
-Use the npm version instead, i.e.,
+Use the [npm version](https://www.npmjs.com/package/pixi.js) instead, i.e.,
 
     meteor npm install --save pixi.js
 
